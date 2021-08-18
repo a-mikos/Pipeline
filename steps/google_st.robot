@@ -14,4 +14,4 @@ pesquisar o que é pipeline?
     Press Keys    None    ENTER
 
 apresentar os resultados da pesquisa
-    Wait Until Element Contains    //div[contains(@class,'e9EfHf big')]    O que é pipeline?
+    Wait Until Element Is Visible        (//h3[contains(.,'O que é pipeline?')])
